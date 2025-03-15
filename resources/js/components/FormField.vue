@@ -7,7 +7,7 @@
     >
         <template #field>
             <input
-                :id="currentField.attribute"
+                :id="currentField.uniqueKey"
                 type="text"
                 class="w-full form-control form-input form-input-bordered"
                 :class="errorClasses"
